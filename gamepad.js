@@ -72,10 +72,10 @@ function updateLoop() {
             info.textContent = output;
 
             // Отримуємо значення осей
-            const lx = gp.axes[3]; // linker stick X
-            const ly = gp.axes[2]; // linker stick Y
-            const rx = gp.axes[0]; // rechter stick X
-            const ry = gp.axes[1]; // rechter stick Y
+            const lx = gp.axes[1]; // linker stick X
+            const ly = gp.axes[0]; // linker stick Y
+            const rx = gp.axes[3]; // rechter stick X
+            const ry = gp.axes[2]; // rechter stick Y
 
             // Малюємо обидва стики
             clearCanvas();
